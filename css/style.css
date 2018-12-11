@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Muli:700');
+
+/* heading text = 'Multi'
+sub heading text = 'Lora' */
+
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*****************/
+/*****Header****/
+/*****************/
+
+
+.header {
+
+    background-image: linear-gradient(rgba(54, 36, 36, 0.63), #000),
+    url(./img/coffee-header.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading-text{
+
+    font-size: 3em;
+    padding-top: 175px;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    font-family: 'Multi', sans-serif;
+    
+}
+
+.header-sub {
+
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+    line-height: 25px;
+    font-size: 1em;
+    font-family: 'Lora', sans-serif;
+}
+
+
+.navigation {
+
+    background-color: rgba(48, 44, 44, 0.25);
+    padding-top: 10px;
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav ul li {
+
+    list-style: none;
+    
+}
+nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+} 
+
+/*****************/
+/*****About Us****/
+/*****************/
+
+.about-us-wrapper {
+
+    background-color: rgb(34, 25, 25);
+}
+.about-us-header {
+
+    font-family: 'Multi', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+}
+
+.about-sub {
+
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Lora', sans-serif;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+    font-size: 1em;
+    padding-bottom: 30px;
+}
+
+.about-img {
+
+    display: none;
+}
+
+/*****************/
+/*****Our Coffee****/
+/*****************/
+
+.coffee-wrapper {
+
+    background-image: url(./img/our-coffee.png);
+    background-repeat: no-repeat;
+  
+    width: 100vw;
+}
+.coffee-header,
+.coffee-sub {
+
+    text-align: center;
+}
+
+.coffee-header {
+
+    font-family: 'Multi', sans-serif;
+    font-size: 15px;
+    padding-top: 250px;
+    font-weight: 700;
+    color: #954535cc;
+}
+
+.coffee-sub {
+
+    margin-top: 20px;
+    font-family: 'Multi', sans-serif;
+    font-size: 20px;
+    color: #954535;
+    margin-bottom: 30px;
+}
+
+.coffee-beans,
+.coffee-milk,
+.coffee-pattern {
+    clip-path: circle(34% at 50% 50%);
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px #ccc;
+    
+}
+
+.img-text{
+
+    text-align: center;
+    line-height: 30px;
+}
+
+.coffee-beans-text,
+.milk-txt,
+.coffee-pattern-txt {
+
+    font-family: 'Multi', sans-serif;
+    color: rgb(63, 30, 30);
+}
+
+.coffee-beans-sub,
+.milk-sub,
+.coffee-pattern-sub{
+
+    font-family: 'Lora', sans-serif;
+    color: rgba(51, 32, 32, 0.377);
+    font-weight: bold;
+}
+.container {
+
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+
+
+
+/********************/
+/*****Buy Coffee*****/
+/********************/
+
+.buy-coffee-wrapper {
+    
+    margin-top: 50px;
+    background-color: rgb(34, 25, 25);
+ 
+}
+
+.enjoy-home {
+    
+    text-align: center;
+    padding-top: 25px;
+    color:#fff;
+    font-family: 'Lora', sans-serif;
+    font-weight: normal;
+   
+}
+
+.buy-coffee {
+
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Multi', sans-serif;
+
+}
+
+
+.coffee-almond,
+.coffee-cookieDough,
+.coffee-vanilla {
+
+    width: 50%;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.coffee-almond:hover,
+.coffee-cookieDough:hover,
+.coffee-vanilla:hover{
+
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10;
+
+}
+
+.coffee-name, 
+.coffee-price {
+
+    text-align: center;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lora', sans-serif;
+}
+
+/*****************/
+/*****Footer******/
+/*****************/
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+    background-color: #b88f8f;
+}
+
+footer h6 {
+
+    margin-bottom: 20px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.address {
+
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 35px;
+    font-family: 'Lora', sans-serif;
+}
+
+.phone-icon {
+
+    color: #fff;    
+
+}
+
+#phone-number,
+#email-address
+
+ {
+
+    padding-left: 15px;
+    font-family: 'Multi', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    
+}
+
+
+#opening-times {
+
+    padding-left: 10px;
+    font-family: 'Multi', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+.clock-icon {
+
+    color: #fff;
+    margin-top: 15px;
+}
+
+.email-icon {
+
+    color: #fff;
+    margin-top: 15px;
+}
+
+.instagram,
+.facebook,
+.twitter {
+
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+.instagram {
+
+    color: rgb(195, 42, 163);
+}
+
+.facebook {
+
+    color: rgb(59, 89, 152);
+}
+
+.twitter {
+    
+    color: rgb(29, 161, 242);
+}

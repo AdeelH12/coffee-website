@@ -1,0 +1,274 @@
+@media only screen and (min-width : 375px){
+    
+    .header-content {
+
+        width: 100%;
+    }
+    .heading-text {
+
+        padding-top: 150px;
+        font-size: 4.2em;
+        text-align: center;
+        line-height: 75px;
+    }
+
+    .coffee-almond,
+    .coffee-cookieDough,
+    .coffee-vanilla {
+
+        display: block;
+        margin: 0 auto;
+    }
+
+    .buy-coffee {
+        margin-bottom: 50px;
+    }
+    .coffee-price{
+
+        margin-top: 15px;
+        font-weight: 100;
+        font-size: 1em;
+        padding-bottom: 30px;
+        
+    }
+}
+
+
+
+/* Tablet (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px){
+    
+    .header-content {
+
+        width: 50%;
+    }
+    .heading-text {
+
+        padding-top: 150px;
+        margin-left: 3.5rem;
+        text-align: left;
+    }
+
+    .header-sub{
+
+        margin-left: 56px;
+        text-align: left;
+    }
+
+    .flex-wrapper {
+
+     display: flex;
+       
+    }
+    .about-img{
+
+        display: flex;
+        margin-left: 20px;
+        width: 250px;
+        height: 375px;
+        padding-bottom: 50px;
+    }
+
+    .about-sub {
+
+        margin-top: 100px;
+    }
+
+    .grid{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .cell{
+
+        width: 50%;
+    }
+
+    .coffee-milk {
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .milk-txt {
+
+        transform: translateY(-20px);
+
+    }
+
+    .milk-sub {
+
+        transform: translateY(-20px);
+
+    }
+    .coffee-pattern {
+
+        clip-path: circle(34% at 50% 50%);
+        width: 50%;
+        margin: 0 auto;
+        margin-left: 180px;
+
+    }
+
+   .coffee-pattern-wrapper{
+
+    width: 100%;
+    
+   }
+
+   .coffee-pattern-txt {
+
+    text-align: center;
+   }
+
+   .vanilla {
+
+    width: 100%;
+   }
+
+   .coffee-vanilla,
+   .coffee-almond,
+   .coffee-cookieDough {
+
+    width: 200px;
+   }
+
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    .coffee-wrapper {
+
+        width: 100vw;
+      
+
+    }
+
+    .vanilla{
+        width: 100%;
+    }
+    .navigation {
+
+        background-color: rgba(48, 44, 44, 0.25);
+        padding: 20px;
+    }
+
+    .header-sub{
+
+        text-align: left;
+        margin-left: 10%;
+        font-size: 1.5em;
+        line-height: 50px;
+    }
+    .header-content {
+
+        width: 100%;
+    }
+    .heading-text{
+
+        font-size: 5rem;
+        margin-left: 10%;
+    }
+
+    .about-img {
+
+        margin-left: 75px;
+        margin-top: 100px;
+        padding-bottom: 20px;
+    }
+
+    .about-sub {
+
+        font-size: 1.5em;
+        line-height: 50px;
+        margin-top: 150px;
+        padding: 25px;
+        margin-left: 160px;
+    }
+
+    .about-us-header{
+
+        font-size: 2.5rem;
+       
+    }
+
+    .cell{
+
+        width: 33.3%;
+    }
+
+    .coffee-pattern {
+
+        margin-left: 0px;
+        width: 100%;
+        transform: translateY(-20px);
+        
+    }
+
+    .coffee-pattern-txt {
+
+        transform: translateY(-45px);
+    }
+
+    .coffee-pattern-sub {
+
+        transform: translateY(-45px);
+    }
+ 
+}
+
+
+@media only screen and (min-width: 1366px){
+
+    .coffee-wrapper {
+
+        background-size: contain;
+        width: 100%;
+    }
+
+    .coffee-header {
+
+        padding-top: 350px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+
+
+   
+    nav ul li {
+
+        font-size: 1.5rem;
+    }
+
+    nav ul li a:hover{
+
+        border-bottom: 1px solid orange;
+    }
+    .heading-text {
+
+        font-size: 5rem;
+        margin-left: 120px;
+        padding-top: 200px;
+        line-height: 85px;
+    }
+
+    .about-img{
+
+        margin-left: 120px;
+        padding-bottom: 20px;
+    
+    }
+
+    .about-sub {
+
+        margin-left: 160px;
+        margin-top: 150px;
+        
+    }
+
+}
+
